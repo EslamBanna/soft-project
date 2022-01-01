@@ -1,0 +1,64 @@
+.navbar-brand{
+    height: 60px;
+}
+.navbar-brand>img{
+    height: 100%;
+}
+.bg-dark{
+    background-color: #1d3557 !important;
+}
+.nav-item .nav-link{
+    color: #fff !important;
+}
+.content{
+    background-color: #003566;
+    padding-top: 70px;
+}
+.content .header{
+    direction: rtl;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px;
+}
+.main-content form>div{
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    margin-bottom: 40px;
+}
+.main-content form>div>div{
+    direction: rtl;
+    display: flex;
+    flex-wrap: wrap-reverse;  
+}
+.main-content form>div>div input{
+    width: 220px;
+    background-color: #fff;
+    border-radius: 5px;
+    outline: none;
+}
+.main-content form>div>div label{
+    color: #fff;
+    width: 140px;
+    text-align: right;
+}
+.main-content form> .button{
+    display: flex;
+    justify-content: center;
+    margin:0px;
+}
+.main-content form> .button button{
+    width: 120px;
+    outline: none;
+    height: 50px;
+    border-radius: 10px;
+}  
+.footer p{
+    background-color: #1d3557;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
